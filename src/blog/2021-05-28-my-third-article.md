@@ -7,7 +7,7 @@ date: 2021-05-28
 tags:
   - post
   - featured
-image: /assets/blog/article-3.jpg
+image: https://www.bitacad.net/uploads/2020/04/21/d2e7bff2e408c40bf3f88a775ad688b0/javascript.jpeg
 imageAlt: This is a test
 ---
 <!--StartFragment-->
