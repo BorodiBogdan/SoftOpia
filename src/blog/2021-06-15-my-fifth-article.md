@@ -1,19 +1,29 @@
 ---
-title: My Fifth Article
-author: Kevin Powell
+title: Introducere in site-uri web
+description: Înainte de orice alte explicaţii avansate trebuie să înţelegem ce
+  este de fapt un Site Web.  Site-ul web, sau site-ul pentru internet, este un
+  ansamblu de fişiere interconectate într-un mod special pentru a deveni o
+  entitate distinctă în reţeaua de site-uri numită internet.
+author: Borodi Bogdan
 date: 2021-06-15
-tags: ["post", "featured"]
-image: /assets/blog/article-5.jpg
+tags:
+  - post
+  - featured
+image: https://www.whd.ro/wp-content/uploads2/2012/10/Structura-unui-site.jpg
 imageAlt: This is a test
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
+Ce este un site web
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Ornare aenean euismod elementum nisi quis eleifend. Amet tellus cras adipiscing enim eu turpis. Nisi vitae suscipit tellus mauris. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Mi eget mauris pharetra et. Et tortor at risus viverra. Id eu nisl nunc mi ipsum faucibus vitae. Malesuada nunc vel risus commodo viverra maecenas. Et netus et malesuada fames ac turpis egestas sed. Massa vitae tortor condimentum lacinia quis. Eu augue ut lectus arcu bibendum at varius. Enim nec dui nunc mattis enim ut tellus elementum sagittis. In fermentum et sollicitudin ac orci. Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Id porta nibh venenatis cras sed felis eget velit. In hac habitasse platea dictumst.
+Înainte de orice alte explicaţii avansate trebuie să înţelegem ce este de fapt un Site Web.  Site-ul web, sau site-ul pentru internet, este un ansamblu de fişiere interconectate într-un mod special pentru a deveni o entitate distinctă în reţeaua de site-uri numită internet. 
 
-Amet est placerat in egestas erat imperdiet sed euismod. Elementum pulvinar etiam non quam. Pharetra convallis posuere morbi leo urna molestie. Varius duis at consectetur lorem donec massa. Id semper risus in hendrerit gravida rutrum quisque. Adipiscing elit pellentesque habitant morbi tristique senectus. Tortor pretium viverra suspendisse potenti. Aenean et tortor at risus viverra adipiscing at in. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Eu augue ut lectus arcu bibendum at varius vel pharetra. Facilisis magna etiam tempor orci eu. Habitant morbi tristique senectus et. Eu facilisis sed odio morbi quis commodo. Ultrices tincidunt arcu non sodales neque sodales ut etiam sit. Nulla posuere sollicitudin aliquam ultrices sagittis. At imperdiet dui accumsan sit amet nulla. Nec feugiat in fermentum posuere urna nec tincidunt praesent semper. Tortor id aliquet lectus proin nibh. Tellus at urna condimentum mattis.
+Ce conţine un site web 
 
-Urna id volutpat lacus laoreet non curabitur gravida arcu ac. Accumsan tortor posuere ac ut consequat. Suspendisse sed nisi lacus sed viverra tellus. Amet nulla facilisi morbi tempus. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Maecenas accumsan lacus vel facilisis volutpat. Fringilla phasellus faucibus scelerisque eleifend. Enim neque volutpat ac tincidunt vitae semper quis. Id eu nisl nunc mi ipsum. Ligula ullamcorper malesuada proin libero nunc. Bibendum at varius vel pharetra vel turpis nunc eget.
+Dacă la începuturile existenţei acestora, site-ul conţinea doar text şi linkuri, astăzi un site este mult mai complex, acesta conţinând texte formatate, linkuri, imagini şi animaţii.  Progresul nu constă doar în atât, minunile adevărate se întâmplă în spatele paginilor afişate, acolo funcţionând scripturi scrise în diverse limbaje de programare, interogări şi prelucrări complexe ale bazelor de date, automatizări ingenioase, filtrări şi condiţionări logice etc. 
 
-Ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin. Convallis a cras semper auctor. Congue eu consequat ac felis donec et odio. Maecenas ultricies mi eget mauris pharetra. Vel facilisis volutpat est velit egestas dui id ornare. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Lectus nulla at volutpat diam ut venenatis tellus in. Pellentesque massa placerat duis ultricies. Augue eget arcu dictum varius duis at consectetur lorem.
+ Tipuri de site-uri web 
 
-Felis donec et odio pellentesque diam volutpat commodo. Donec massa sapien faucibus et. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. A diam sollicitudin tempor id eu nisl. Orci nulla pellentesque dignissim enim sit amet venenatis urna cursus. Cursus turpis massa tincidunt dui. Luctus accumsan tortor posuere ac ut consequat semper viverra. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Leo vel fringilla est ullamcorper. Auctor elit sed vulputate mi sit amet mauris. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis.
+În funcţie de complexitate, volum de informaţii, obiective urmărite, tipuri de conţinut, comunităţi, nişe etc., site-urile pot fi de mai multe tipuri: site de prezentare, blog, forum, magazin online, catalog online, portal, bibliotecă, enciclopedie etc.  
+
+Structura unui site web 
+
+Structura unui site porneşte de la Homepage, care reprezintă prima pagină a site-ului, se ramifică în secţiuni principale şi subsecţiuni, şi se termină în paginile de conţinut.
