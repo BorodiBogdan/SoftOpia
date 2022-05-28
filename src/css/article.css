@@ -242,7 +242,7 @@
     .hero{
         margin-top: 30px;
         min-height: 100vh;
-        
+        max-height: auto;
     }
   .hero > div {
     display: grid;
