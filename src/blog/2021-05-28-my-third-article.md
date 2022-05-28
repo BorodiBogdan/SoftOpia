@@ -1,19 +1,59 @@
 ---
-title: My Third Article
-author: Kevin Powell
+title: Ce este javaScript?
+description: JavaScript, informații despre istoric și prezentare. Chiar dacă
+  istoria acestui limbaj este recentă, nu înseamnă că nu este bogată.
+author: Borodi Bogdan
 date: 2021-05-28
-tags: ['post', 'featured']
+tags:
+  - post
+  - featured
 image: /assets/blog/article-3.jpg
 imageAlt: This is a test
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
+<!--StartFragment-->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis leo vel fringilla. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Ut sem nulla pharetra diam sit amet nisl. Est velit egestas dui id ornare. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Ut sem viverra aliquet eget. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus a. At augue eget arcu dictum. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Amet aliquam id diam maecenas ultricies mi.
+În articolul de astăzi încercăm să facem o scurtă prezentare a istoriei JavaScript de la începuturi, până în prezent.
 
-Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Molestie nunc non blandit massa enim nec dui nunc mattis. Sem nulla pharetra diam sit amet nisl suscipit. Id eu nisl nunc mi. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Sit amet purus gravida quis blandit. Egestas sed sed risus pretium quam vulputate dignissim suspendisse. Magna fringilla urna porttitor rhoncus dolor. Neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Ut eu sem integer vitae. Orci phasellus egestas tellus rutrum tellus. Cras semper auctor neque vitae tempus quam pellentesque nec nam. Dignissim sodales ut eu sem integer vitae justo. Tempus imperdiet nulla malesuada pellentesque elit eget. Lectus urna duis convallis convallis tellus id interdum velit.
+## Istoricul JavaScript
 
-Fringilla urna porttitor rhoncus dolor purus. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Etiam non quam lacus suspendisse faucibus interdum. Eget dolor morbi non arcu risus quis varius quam. Senectus et netus et malesuada. Erat pellentesque adipiscing commodo elit at. Diam sit amet nisl suscipit. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Lectus proin nibh nisl condimentum id venenatis. Consequat semper viverra nam libero. Cursus turpis massa tincidunt dui ut ornare. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Purus sit amet luctus venenatis lectus magna fringilla urna. Eget gravida cum sociis natoque penatibus. Tellus elementum sagittis vitae et leo duis ut diam quam. Scelerisque felis imperdiet proin fermentum leo vel orci. Eu facilisis sed odio morbi quis commodo. Sed risus ultricies tristique nulla aliquet.
+Acest limbaj este peste tot. Pentru al șaptelea an la rând, a fost clasat în limbajul de programare cel mai des utilizat.
 
-Erat nam at lectus urna duis. Pretium nibh ipsum consequat nisl vel pretium lectus quam id. Tristique senectus et netus et malesuada fames. Semper eget duis at tellus at urna. Dictum non consectetur a erat nam at. Non quam lacus suspendisse faucibus interdum posuere lorem. Risus nullam eget felis eget nunc lobortis mattis. Amet nulla facilisi morbi tempus iaculis urna id. Vitae sapien pellentesque habitant morbi tristique senectus et netus. Scelerisque felis imperdiet proin fermentum leo vel orci porta. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Sit amet luctus venenatis lectus magna fringilla. Malesuada fames ac turpis egestas. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Erat pellentesque adipiscing commodo elit. Vel quam elementum pulvinar etiam. Neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Eu ultrices vitae auctor eu augue ut. Imperdiet proin fermentum leo vel orci porta non pulvinar.
+În 2019, 67,8% dintre dezvoltatori l-au utilizat. Ascensiunea sa către cel mai popular limbaj de programare din lume este sinonimă cu creșterea internetului în sine.
 
-Volutpat lacus laoreet non curabitur gravida. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Ipsum consequat nisl vel pretium lectus quam. Est lorem ipsum dolor sit amet. Dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu. Integer eget aliquet nibh praesent tristique magna sit amet purus. Tristique senectus et netus et malesuada fames ac turpis. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Maecenas sed enim ut sem viverra. Ante in nibh mauris cursus mattis molestie a iaculis at. Vitae auctor eu augue ut lectus arcu bibendum at.
+Creat din necesitate, este utilizat pentru a construi 95,2% (1,52 miliarde) de website-uri.
+
+Aici sunt incluse unele dintre cele mai mari din lume, cum ar fi Facebook și [YouTube](https://www.youtube.com/).
+
+Fără aceasta, nu am avea aplicații web populare și utile, cum ar fi Google Maps și eBay.
+
+Aruncăm o privire la ce este JavaScript, cum și de ce a fost creat și ce urmează pentru acest limbaj.
+
+### Ce este JavaScript?
+
+<img src = "https://t4.ftcdn.net/jpg/04/16/93/91/360_F_416939175_jn1tMagktYlMCXOI0MJiKQZKQL3XtDRT.jpg">
+
+Este un limbaj de script, dintre cele trei limbi de bază utilizate, pentru dezvoltarea de website-uri. HTML și CSS oferă structura și stilul unui website.
+
+JavaScript vă permite să adăugați funcționalitate și comportamente pe website-ul dvs.
+
+Astfel, vizitatorii website-ului dvs. interacționează cu conținutul în multe moduri imaginative.
+
+Este, în primul rând, un limbaj al clientului. Acesta rulează pe computer în browserul dvs.
+
+Cu toate acestea, mai recent, introducerea Node.js a permis JavaScript să execute și cod pe servere. De la lansarea sa, JavaScript a depășit Java, Flash și alte limbaje.
+
+Este relativ ușor de învățat, având o comunitate gratuită și deschisă.
+
+Cel mai important, este incredibil de util, permițând dezvoltatorilor să creeze rapid aplicații cu audiențe de milioane.
+
+> Începutul și mijlocul anilor 1990 a fost o perioadă importantă pentru internet.
+
+Jucătorii cheie precum Netscape și Microsoft s-au aflat în mijlocul războaielor de browser.
+
+Navigatorul Netscape și Internet Explorer-ul Microsoft mergeau umăr la umăr.
+
+În septembrie 1995, un programator Netscape, Brandan Eich, a dezvoltat un nou limbaj de script în doar 10 zile.
+
+Inițial a fost numit Mocha, dar a devenit rapid cunoscut sub numele de LiveScript și, ulterior, JavaScript.
+
+<!--EndFragment-->
