@@ -1,19 +1,35 @@
 ---
-title: My First Article
-author: Kevin Powell
+title: De ce este important sa ai un website?
+description: Mediul online se dezvolta continuu, din ce in ce mai multe persoane
+  si firme constientizeaza beneficiile prezentei in mediul online. Cu toate
+  acestea,  sunt inca multe persoane care sunt sceptice la ideea de a avea un
+  website. Bineinteles ca pentru a contribui pozitiv la dezvoltarea afacerii
+  tale, acesta trebuie sa fie realizat de profesionisti.
+author: Borodi Bogdan
 date: 2021-05-01
-tags: ["post"]
-image: /assets/blog/article-1.jpg 
+tags:
+  - post
+  - featured
+image: https://24c.co/wp-content/uploads/2018/05/content-people-search-for-headline.jpg
 imageAlt: This is a test
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
+<!--StartFragment-->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel. Donec ultrices tincidunt arcu non sodales. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Pretium quam vulputate dignissim suspendisse in est. Lobortis mattis aliquam faucibus purus in massa tempor nec. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Vulputate eu scelerisque felis imperdiet proin. Nisl nisi scelerisque eu ultrices.
+Mediul online se dezvolta continuu, din ce in ce mai multe persoane si firme constientizeaza beneficiile prezentei in mediul online. Cu toate acestea,  sunt inca multe persoane care sunt sceptice la ideea de a avea un website. Bineinteles ca pentru a contribui pozitiv la dezvoltarea afacerii tale, acesta trebuie sa fie realizat de profesionisti. Un site bine realizat, impreuna cu un continut relevant, interesant si in pas cu ultimele tendinte este cheia spre succes. Avantajele pe care ti le ofera un website sunt multiple:\
+1. Milioane de potentiali clienti - prin intermediul unui website, mesajul tau ajunge rapid la milioane de oameni. Odata cu numarul vizitatorilor pe site, creste si numarul clientilor si implicit al vanzarilor.
 
-Enim nulla aliquet porttitor lacus luctus accumsan. Vulputate mi sit amet mauris commodo quis. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Placerat orci nulla pellentesque dignissim. Consequat mauris nunc congue nisi. Nec nam aliquam sem et tortor consequat. Consequat semper viverra nam libero justo laoreet sit amet. Id interdum velit laoreet id donec. Turpis in eu mi bibendum neque. Tincidunt vitae semper quis lectus. Suscipit adipiscing bibendum est ultricies integer quis auctor. Posuere urna nec tincidunt praesent semper. Sagittis id consectetur purus ut faucibus pulvinar elementum. Diam maecenas ultricies mi eget mauris. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Dui sapien eget mi proin sed.
+2. Clientii te vor gasi mai usor - majoritatea persoanelor, inainte de a achizitiona un produs sau serviciu, se documenteaza pe internet. In acest fel, pe langa faptul ca nu sunt nevoiti sa piarda timpul mergand la sediul firmei, pot afla parerile clientilor care au achizitionat deja produsul sau serviciul respectiv.
 
-In iaculis nunc sed augue lacus. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Consectetur adipiscing elit ut aliquam. Tortor consequat id porta nibh venenatis cras sed. Integer enim neque volutpat ac tincidunt. Pellentesque pulvinar pellentesque habitant morbi. Ut enim blandit volutpat maecenas. Risus quis varius quam quisque id. Turpis tincidunt id aliquet risus. Congue eu consequat ac felis donec.
+3. Prezentarea companiei - clientii si potentialii clienti au acces rapid la informatii legate de istoricul, valorile, misiunea si obiectivele unei firme. Astfel, isi pot face o idee despre evolutia firmei si despre calitatea produselor sau serviciilor acesteia.
 
-Aliquam vestibulum morbi blandit cursus risus at. Malesuada fames ac turpis egestas sed tempus. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. Enim diam vulputate ut pharetra sit amet aliquam. Est ante in nibh mauris cursus mattis. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Nec ultrices dui sapien eget mi proin sed libero enim. Sed sed risus pretium quam vulputate. Sit amet luctus venenatis lectus magna.
+4. Afacerea ta poate fi promovata chiar de catre clientii tai - prin intermediul internetului, informatiile ajung rapid la un numar foarte mare de persoane. Clientii nu trebuie decat sa retina numele website-ului tau sau sa distribuie pe retelele de socializare un produs, serviciu sau articol de pe site-ul tau.
 
-Mauris nunc congue nisi vitae suscipit tellus mauris. Vitae et leo duis ut. Arcu cursus euismod quis viverra nibh. Amet mauris commodo quis imperdiet. Condimentum lacinia quis vel eros donec. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla. Faucibus nisl tincidunt eget nullam. Cursus metus aliquam eleifend mi in nulla. Ut placerat orci nulla pellentesque dignissim enim sit amet. Lobortis feugiat vivamus at augue eget arcu dictum. Nunc faucibus a pellentesque sit amet porttitor. Quis varius quam quisque id diam vel quam elementum pulvinar.
+5. Transmiti incredere - printr-un website le demonstrezi clientilor ca faci tot posibilul ca acestia sa beneficieze de produse si servicii de calitate.
+
+6. Buna comunicare cu clientii - website-ul te ajuta sa te apropii de clientii tai. Acestia isi pot spune parerea despre produsele si serviciile tale, feedback-ul din partea lor fiind un element esential pentru afacerea ta.
+
+Lansam afaceri de succes inca de la inceputul activitatii. Suntem nerabdatori sa ne spui ideea ta, sa iti oferim sfaturi si sa lucram impreuna la dezvoltarea si implementarea acesteia.
+
+
+
+<!--EndFragment-->
