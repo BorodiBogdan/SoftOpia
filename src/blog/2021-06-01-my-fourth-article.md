@@ -1,5 +1,5 @@
 ---
-title: web design
+title: Web Design
 description: Termenul web design este folosit în mod normal pentru a descrie
   procesul de proiectare legat de designul front-end (interfața utilizatorului)
   a unui site web. Designul web acoperă acum multe abilități și discipline
