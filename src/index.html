@@ -6,7 +6,6 @@
         <title>SoftOpia</title>
         <meta name = "description" content="Servicii creeare website, hosting si web design. Abia asteptam sa lucram impreuna cu tine!">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="google-site-verification" content="Bp-G0RJC7v64nLkmmrlJx5rdnUMXKt1jeYeRJtVDYQQ" />
         <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
         <link rel = "icon" href = "photos/logosus.png" type = "image/x-icon"> 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,11 +13,14 @@
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/9ee00c1082.js" crossorigin="anonymous"></script>
         <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <link rel="stylesheet" href="/css/pre.css">
     </head>
 
     <body>
-    
-    <div>
+
+        <div class = "loader">
+            <img src="photos/background.gif" alt="">
+        </div>
 
         <div id = "navbar">
             <nav>
@@ -60,7 +62,7 @@
                     <p>Ne ocupam de site-ul tau!</p>
 
                     <div class = "button">
-                        <a href = "#">Despre noi</a>
+                        <a href = "#about">Despre noi</a>
                     </div>
 
                 </div>
@@ -285,7 +287,7 @@
                                     </div>
 
                                     <div class="form-group">
-                                        <textarea class="form-control-input-lg" id = "textarea" style="resize: none" rows="5" placeholder="Mesaj" name="Mesaj:" required></textarea>
+                                        <textarea class="form-control-input-lg" id = "textarea" style="resize: none" rows="5" placeholder=" Mesaj" name="Mesaj:" required></textarea>
                                     </div>
 
                                     <div style="align-items: center; display: flex; flex-direction: column; justify-content: center;">
@@ -306,13 +308,13 @@
 
             
         </section>
+    
 
         <footer class = "last-div">
             <p>Copyright © 2022 - Developed By Borodi Bogdan</p>
             
         </footer>
-    </div>
-
+    
     <script>
         if (window.netlifyIdentity) {
             window.netlifyIdentity.on("init", user => {
@@ -328,6 +330,7 @@
     </body>
     
     <script src='/js/main.js'></script>
-    
-
+    <script src='/js/pre.js'></script>
+ 
+    </script>
 </html>

@@ -27,7 +27,7 @@ nav ul{
     padding-top: 21.5px;
     font-size: 25px;
     display: flex;
-    width: 500px;
+    width: 600px;
     justify-content: space-around;
 }
 .contact-address{
@@ -45,6 +45,7 @@ nav li{
     color: white;
     /*width: 240px;*/
     list-style: none;
+    margin-left: 30px;
 }
 #sliding li{
      text-decoration: none;
@@ -265,6 +266,7 @@ h2{
 }
 .form-control-input-lg{
     color: black;
+    border-radius: 20px;
     height: 60px;
     width: 35vw;
     margin-bottom: 30px;
@@ -295,7 +297,7 @@ h2{
     font-size: large;
     font-family: 'IBM Plex Sans', sans-serif;
     color: white;
-    border: none;
+    border-radius: 20px;
     background-color: rgb(13, 115, 249);
 }
 #textarea{
@@ -427,15 +429,16 @@ h2{
     
     .form-control-input-lg{
         color: black;
-        height: 30px;
-        width: 50vw;
+        height: 40px;
+        width: 60vw;
         
     }
     #textarea{
         height: 150px;
     }
     .btn-wow-bounceInRight{
-        height: 30px;
+        height: 45px;
+        margin-bottom: 50px;
     }
 
     .contact-div{
@@ -553,7 +556,7 @@ h2{
         font-size: 10px;
     }
     .form-control-input-lg{
-        width: 200px;
+        width: 60vw;
     }
 }
 @media only screen and (max-width: 600px){
