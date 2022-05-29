@@ -313,7 +313,7 @@ h2{
     display: flex;
     height: 350px;
     width: 350px;
-    margin-left: 30px;
+    
     border: black solid 5px;
     margin-top: 55px;
 
@@ -600,6 +600,7 @@ h2{
 }
 .service-example{
     opacity: 0;
+    margin: 10px;
     transition: all 0.3s ease-in;
 }
 .service-example.appear{
