@@ -6,21 +6,19 @@
         <title>SoftOpia</title>
         <meta name = "description" content="Servicii creeare website, hosting si web design. Abia asteptam sa lucram impreuna cu tine!">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="Bp-G0RJC7v64nLkmmrlJx5rdnUMXKt1jeYeRJtVDYQQ" />
         <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
         <link rel = "icon" href = "photos/logosus.png" type = "image/x-icon"> 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/9ee00c1082.js" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-        <link rel="stylesheet" href="/css/pre.css">
+        
     </head>
 
     <body>
-
-        <div class = "loader">
-            <img src="photos/background.gif" alt="">
-        </div>
+    
+    <div>
 
         <div id = "navbar">
             <nav>
@@ -48,7 +46,6 @@
                 <li class = "sliding-info"><a href = "#projects">Proiecte</a></li>
                 <li class = "sliding-info"><a href = "#contact-area">Servicii</a></li>
                 <li style="margin-bottom: 20px;" class = "sliding-info"><a href = "#contact-area" >Contact</a></li>
-                <li class = "sliding-info"><a href = "./blog/index.html">Blog</a></li>
             </ul>    
         </div>
 
@@ -58,7 +55,7 @@
             
                 <div class = "hero-text">
 
-                    <h1 class = "softopia"> <a>S</a><a>o</a><a>f</a><a>t</a><a>O</a><a>p</a><a>i</a><a>a</a></h1>
+                    <h1 class = "softopia"> <a>S</a><a>oo</a><a>f</a><a>t</a><a>O</a><a>p</a><a>i</a><a>a</a></h1>
                     <p>Ne ocupam de site-ul tau!</p>
 
                     <div class = "button">
@@ -72,9 +69,9 @@
                 </div>
 
                 <div class = "socials">
-                    <div><a href = "https://twitter.com/BorodiB" target="popup"><img src = "photos/twitter-logo.png" class = "social-photos" id = "twitter"></a></div>
-                    <div><a href = "https://www.facebook.com/borodi.bogdan/" target="popup"><img src = "photos/facebook-logo.png" class = "social-photos" id = "facebook"></a></div>
-                    <div><a href = "https://www.instagram.com/borodi_bogdan/" target="popup"><img src = "photos/instagram-logo.png" class = "social-photos" id = "insta"></a></div>
+                    <div><img src = "photos/twitter-logo.png" class = "social-photos" id = "twitter"></div>
+                    <div><img src = "photos/facebook-logo.png" class = "social-photos" id = "facebook"></div>
+                    <div><img src = "photos/instagram-logo.png" class = "social-photos" id = "insta"></div>
                 </div>
 
             </div>
@@ -263,7 +260,7 @@
 
                                     <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; Bistrița, România</li>
                                     <li><i class="fa fa-phone"></i>&nbsp; +40 755 204 503</li>
-                                    <li><i class="fa fa-envelope"></i>contact.softopia@gmail.com</li>
+                                    <li><i class="fa fa-envelope"></i> Soft.Contact@gmail.com</li>
                                 </ul>
                             </div>
                         </div>
@@ -287,7 +284,7 @@
                                     </div>
 
                                     <div class="form-group">
-                                        <textarea class="form-control-input-lg" id = "textarea" style="resize: none" rows="5" placeholder=" Mesaj" name="Mesaj:" required></textarea>
+                                        <textarea class="form-control-input-lg" id = "textarea" style="resize: none" rows="5" placeholder="Mesaj" name="Mesaj:" required></textarea>
                                     </div>
 
                                     <div style="align-items: center; display: flex; flex-direction: column; justify-content: center;">
@@ -308,29 +305,17 @@
 
             
         </section>
-    
 
         <footer class = "last-div">
             <p>Copyright © 2022 - Developed By Borodi Bogdan</p>
             
         </footer>
-    
-    <script>
-        if (window.netlifyIdentity) {
-            window.netlifyIdentity.on("init", user => {
-            if (!user) {
-                window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-                });
-            }
-            });
-        }   
-    </script>
+    </div>
+
     
     </body>
     
     <script src='/js/main.js'></script>
-    <script src='/js/pre.js'></script>
- 
-    </script>
+    
+
 </html>
