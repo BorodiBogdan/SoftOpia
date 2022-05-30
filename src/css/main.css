@@ -379,6 +379,11 @@ h2{
         background-attachment: fixed;
     }
 }
+@media only screen and (max-width: 880px){
+    .floating-image{
+        display: none;
+    }
+}
 @media only screen and (max-width: 1200px){
     .floating-image{
         height: 300px;
@@ -476,9 +481,7 @@ h2{
     .social-photos{
         height: 35px;
     }
-    .softopia{
-        font-size: 70px;
-    }
+
     .button{
         width: 180px;
         height: 50px;
@@ -500,10 +503,14 @@ h2{
     }
 }
 @media only screen and (max-width: 700px){
+    
+    .floating-image{
+        display: none;
+    }
     .hero-text.appear{
         opacity: 1;
         transform: translateX(0px);
-        transform: translateY(-120px);
+        transform: translateY(-30px);
     }
     .service-example{
         margin-top: 55px;
@@ -526,21 +533,13 @@ h2{
     .contact-address{
         width: 300px;
     }
-    .hero-text p{
-        font-size: 15px;
-    }
     .sub-section-alternative h2{
         font-size: 40px;
     }
     .contactt{
         font-size: 44px;
     }
-    .softopia{
-        font-size: 35px;
-    }
-    p{
-        font-size: 20px;
-    }
+ 
     .button{
         width: 120px;
         height: 30px;
@@ -565,6 +564,12 @@ h2{
     }
 }
 @media only screen and (max-width: 500px){
+    .softopia{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+    }
     .headshot{
         display: none;
     }
@@ -579,7 +584,13 @@ h2{
         justify-content: center;
     }
 }
+@media only screen and (max-width: 500px){
+    .softopia{
+        font-size: 65px;
+    }
+}
 @media only screen and (max-width: 400px){
+
     .sub-section-alternative h2{
         font-size: 60px;
     }
@@ -589,10 +600,16 @@ h2{
     .floating-image{
         width: 250px;
     }
+    .softopia{
+        font-size: 40px;
+    }
+    p{
+        font-size: 15px;
+    }
 }
 @media only screen and (max-height: 700px){
-    .last-section{
-        height: 850px;
+    .floating-image{
+        display: none;
     }
 }
 .form-control-input-lg{
