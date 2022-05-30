@@ -27,7 +27,7 @@ nav ul{
     padding-top: 21.5px;
     font-size: 25px;
     display: flex;
-    width: 600px;
+    width: 500px;
     justify-content: space-around;
 }
 .contact-address{
@@ -45,7 +45,6 @@ nav li{
     color: white;
     /*width: 240px;*/
     list-style: none;
-    margin-left: 30px;
 }
 #sliding li{
      text-decoration: none;
@@ -266,7 +265,6 @@ h2{
 }
 .form-control-input-lg{
     color: black;
-    border-radius: 20px;
     height: 60px;
     width: 35vw;
     margin-bottom: 30px;
@@ -297,7 +295,7 @@ h2{
     font-size: large;
     font-family: 'IBM Plex Sans', sans-serif;
     color: white;
-    border-radius: 20px;
+    border: none;
     background-color: rgb(13, 115, 249);
 }
 #textarea{
@@ -313,7 +311,7 @@ h2{
     display: flex;
     height: 350px;
     width: 350px;
-    
+    margin-left: 30px;
     border: black solid 5px;
     margin-top: 55px;
 
@@ -328,7 +326,7 @@ h2{
 .highlight{
     width: 80px;
     height: 80px;
-    margin-left: 120px;
+    margin-left: 100px;
     background-color: rgb(36, 120, 147);
     border-radius: 30px;
 }
@@ -377,11 +375,6 @@ h2{
     }
     #hero{
         background-attachment: fixed;
-    }
-}
-@media only screen and (max-width: 880px){
-    .floating-image{
-        display: none;
     }
 }
 @media only screen and (max-width: 1200px){
@@ -434,16 +427,15 @@ h2{
     
     .form-control-input-lg{
         color: black;
-        height: 40px;
-        width: 60vw;
+        height: 30px;
+        width: 50vw;
         
     }
     #textarea{
         height: 150px;
     }
     .btn-wow-bounceInRight{
-        height: 45px;
-        margin-bottom: 50px;
+        height: 30px;
     }
 
     .contact-div{
@@ -481,7 +473,9 @@ h2{
     .social-photos{
         height: 35px;
     }
-
+    .softopia{
+        font-size: 70px;
+    }
     .button{
         width: 180px;
         height: 50px;
@@ -503,14 +497,10 @@ h2{
     }
 }
 @media only screen and (max-width: 700px){
-    
-    .floating-image{
-        display: none;
-    }
     .hero-text.appear{
         opacity: 1;
         transform: translateX(0px);
-        transform: translateY(-30px);
+        transform: translateY(-120px);
     }
     .service-example{
         margin-top: 55px;
@@ -518,7 +508,7 @@ h2{
         width: 250px;
     }
     .highlight{
-        margin-left: 80px;
+        margin-left: 50px;
     }
     .cool-text{
         font-size: 50px;
@@ -533,13 +523,21 @@ h2{
     .contact-address{
         width: 300px;
     }
+    .hero-text p{
+        font-size: 15px;
+    }
     .sub-section-alternative h2{
         font-size: 40px;
     }
     .contactt{
         font-size: 44px;
     }
- 
+    .softopia{
+        font-size: 35px;
+    }
+    p{
+        font-size: 20px;
+    }
     .button{
         width: 120px;
         height: 30px;
@@ -555,7 +553,7 @@ h2{
         font-size: 10px;
     }
     .form-control-input-lg{
-        width: 60vw;
+        width: 200px;
     }
 }
 @media only screen and (max-width: 600px){
@@ -564,12 +562,6 @@ h2{
     }
 }
 @media only screen and (max-width: 500px){
-    .softopia{
-        font-size: 40px;
-    }
-    p{
-        font-size: 20px;
-    }
     .headshot{
         display: none;
     }
@@ -584,13 +576,7 @@ h2{
         justify-content: center;
     }
 }
-@media only screen and (max-width: 500px){
-    .softopia{
-        font-size: 65px;
-    }
-}
 @media only screen and (max-width: 400px){
-
     .sub-section-alternative h2{
         font-size: 60px;
     }
@@ -600,16 +586,10 @@ h2{
     .floating-image{
         width: 250px;
     }
-    .softopia{
-        font-size: 40px;
-    }
-    p{
-        font-size: 15px;
-    }
 }
 @media only screen and (max-height: 700px){
-    .floating-image{
-        display: none;
+    .last-section{
+        height: 850px;
     }
 }
 .form-control-input-lg{
@@ -617,7 +597,6 @@ h2{
 }
 .service-example{
     opacity: 0;
-    margin: 10px;
     transition: all 0.3s ease-in;
 }
 .service-example.appear{
