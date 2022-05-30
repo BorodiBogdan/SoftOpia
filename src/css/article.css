@@ -23,6 +23,9 @@
     --clr-neutral-500: hsla(0, 0%, 60%, 1);
     --clr-neutral-900: hsla(0, 0%, 10%, 1);
   }
+  body{
+    background-color: var(--clr-primary-200);
+  }
   
   @media (min-width: 35em) {
     :root {
@@ -157,10 +160,8 @@
   }
   
   .container {
-
     margin-inline: auto;
     padding-inline: 1.5em;
- 
     max-width: 72rem;
   }
   
@@ -240,8 +241,7 @@
     /////////////////////// */
     .hero{
         margin-top: 30px;
-        min-height: 100vh;
-        max-height: auto;
+        height: 100vh;
     }
   .hero > div {
     display: grid;
@@ -253,13 +253,11 @@
   .hero{
     background-image: url('../photos/background.jpg');
     background-size: cover;
-    justify-content: center;
-    
   }
   .hero__image {
       border-radius: 150px;
     width: 100%;
-    max-height: max(15rem, 40vh);
+    /* max-height: max(15rem, 40vh); */
     object-fit: cover;
   }
   
@@ -269,6 +267,9 @@
     }
   }
   
+  .featured-articles {
+    background-color: var(--clr-primary-200);
+  }
   
   .articles__list {
     --flow-spacer: 3rem;
