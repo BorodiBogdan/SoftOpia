@@ -27,7 +27,7 @@ nav ul{
     padding-top: 21.5px;
     font-size: 25px;
     display: flex;
-    width: 500px;
+    width: 600px;
     justify-content: space-around;
 }
 .contact-address{
@@ -292,13 +292,14 @@ h2{
 }
 
 .btn-wow-bounceInRight{
+    border: 2px solid black;
     height: 60px;
     width: 100%;
     border-radius: 120px;
     font-size: large;
     font-family: 'IBM Plex Sans', sans-serif;
     color: white;
-    border: none;
+    
     background-color: rgb(13, 115, 249);
 }
 #textarea{
