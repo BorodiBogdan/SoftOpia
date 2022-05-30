@@ -23,9 +23,6 @@
     --clr-neutral-500: hsla(0, 0%, 60%, 1);
     --clr-neutral-900: hsla(0, 0%, 10%, 1);
   }
-  body{
-    background-color: var(--clr-primary-200);
-  }
   
   @media (min-width: 35em) {
     :root {
@@ -267,9 +264,7 @@
     }
   }
   
-  .featured-articles {
-    background-color: var(--clr-primary-200);
-  }
+  
   
   .articles__list {
     --flow-spacer: 3rem;
