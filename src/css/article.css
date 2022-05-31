@@ -151,7 +151,7 @@
   /* select all direct childen of .flow
      and add margin to the top for proper
      spacing */
-  
+
   .flow > *:where(:not(:first-child)) {
     margin-top: var(--flow-spacer, 1em);
   }
@@ -238,7 +238,7 @@
     /////////////////////// */
     .hero{
         margin-top: 30px;
-        height: 100vh;
+        min-height: 100vh;
     }
   .hero > div {
     display: grid;
