@@ -49,6 +49,7 @@ nav li{
 #sliding li{
      text-decoration: none;
     color: white;
+    margin-left: 24px;
     /*width: 240px;*/
     list-style: none;
 }
@@ -504,7 +505,7 @@ h2{
     .hero-text.appear{
         opacity: 1;
         transform: translateX(0px);
-        transform: translateY(-120px);
+        transform: translateY(0px);
     }
     .service-example{
         margin-top: 55px;
@@ -537,7 +538,7 @@ h2{
         font-size: 44px;
     }
     .softopia{
-        font-size: 35px;
+        font-size: 40px;
     }
     p{
         font-size: 20px;
@@ -589,6 +590,14 @@ h2{
     }
     .floating-image{
         width: 250px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .floating-image{
+        display: none;
+    }
+    .hero-text{
+        transform: translateY(60px);
     }
 }
 @media only screen and (max-height: 700px){
