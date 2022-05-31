@@ -135,3 +135,8 @@ body{
     background: #1b1b1b;
     color: #fff;
 }
+@media only screen and (max-width: 700px){
+    .blogs-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
