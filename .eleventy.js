@@ -10,7 +10,7 @@ module.exports = function(eleventyConfig){
     eleventyConfig.addPassthroughCopy('./src/ImperialConstruct');
     eleventyConfig.addPassthroughCopy('./src/SimplyConstruct');
     eleventyConfig.addPassthroughCopy('./src/CocktailsCrazyness');
-    eleventyConfig.addPassthroughCopy('./src/Constructed');
+    eleventyConfig.addPassthroughCopy('./src/constructed');
 
     eleventyConfig.addFilter("postDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
