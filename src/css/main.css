@@ -10,6 +10,40 @@ body{
     font-family: 'IBM Plex Sans', sans-serif;
     overflow-x:hidden;
 }
+.blog-section{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.blog-area{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.blog-subtext{
+    padding: 10px;
+}
+.blog-card img{
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+}
+.blog-card {
+    box-shadow: 7px 7px 30px rgb(69, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    margin: 20px;
+    height: 550px;
+    width: 400px;
+}
+.blog-card .subtext{
+    transform: translateX(80px);
+}
 .logo{
     height: 80px;
     padding-top: 5px;
@@ -564,6 +598,21 @@ h2{
 @media only screen and (max-width: 600px){
     .hero-text{
         margin-left: 40px;
+    }
+    .blog-card img{
+        height: 200px;
+        width: 200px;
+    }
+    .blog-card{
+        padding: 15px;
+        width: 250px;
+        height: auto;
+    }
+    .blog-card .subtext{
+        transform: translateX(15px);
+    }
+    .blogtitle{
+        font-size: 40px;
     }
 }
 @media only screen and (max-width: 500px){
