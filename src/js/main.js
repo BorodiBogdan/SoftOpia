@@ -122,6 +122,7 @@ const floats = document.querySelectorAll('.floating-image');
 const texts = document.querySelectorAll('.hero-text');
 const informations = document.querySelectorAll('.information');
 const headshots = document.querySelectorAll('.headshot-container');
+const blogs = document.querySelectorAll('.blog-card');
 
 const AppearOptions = {
   threshold : 0.2,
@@ -168,4 +169,8 @@ informations.forEach( information  =>{
 })
 headshots.forEach( head =>{
   appearOnScroll.observe(head);
+})
+
+blogs.forEach( blog =>{
+  appearOnScroll.observe(blog);
 })
