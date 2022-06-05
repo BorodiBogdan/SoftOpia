@@ -33,12 +33,12 @@
                 <a href = "index.html"><img src = "photos/logo.png" class = "logo" alt = "SoptOpia Logo"></a>
 
                     <ul id = "nav-list">
-                        <li><a href = "#about">Despre noi</a></li>
-                        <li><a href = "#projects">Proiecte</a></li>
-                        <li><a href = "#services">Servicii</a></li>
-                        <li><a href = "#contact-area">Contact</a></li>
+                        <li><a href = "./index.html#about">Despre noi</a></li>
+                        <li><a href = "/projects.html#portofoliu1">Portofoliu</a></li>
+                        <li><a href = "./index.html#services">Servicii</a></li>
+                        <li><a href = "./index.html#contact-area">Contact</a></li>
                         <li><a href = "./blog/index.html">Blog</a></li>
-                    </ul>    
+                    </ul>     
                 
                 <button class = "hamburger" id = "hamburgerr">
                     <i class = "fas fa-bars"></i>
@@ -210,80 +210,21 @@
             </div>
         
         </section>
-        <section class = "sub-section-alternative" id = "projects">
-            <h2>Proiecte</h2>
-            
-            <div class = "project-container">
-                <div class = "project-card1">
-                    <img class = "project-image" src = "photos/project2.png" alt = "Project Image">
-                    <h3><u>Site de prezentare</u></h3><br/>
-      
-                    <p class = "infotext">Acesta este un model de site pentru prezentarea unei firme. Design-ul este unul simplu, placut pentru privitor, fiind gandit pentru a atrage atentia.</p>
-                 
-                    <p class = "subtext"> <a href = "ImperialConstruct/index.html" target="popup"> Uita-te aici </a></p>
-                </div>
-
-                <div class = "project-card1" class = 'project-card1'>
-                    <img class = "project-image" src = "photos/project1.png" alt = "Project Image">
-                    <h3><u>Simply Construct</u></h3><br/>
-                    
-                    <p class = "infotext">Simply Construct este un proiect inedit care are rolul de a prezenta serciviile intr-un mod interactiv. Scopul site-ului este de a mari convingerea cititorului asupra serviciilor prestate.</p>
-                    <p class = "subtext"> <a href = "SimplyConstruct/index.html" target="popup"> Uita-te aici </a></p>
-                </div>
-
-                <div class = "project-card">
-                    <img class = "project-image" src = "photos/project3.png" alt = "Project Image">
-                    <h3><u>Cocktails Crazyness</u></h3><br/>
-                    <p class = "infotext">Cocktails Crazyness este un template de site pentru bartenderi. Aceasta impresioneaza prin designul cu vibe de party.</p>
-                    <p class = "subtext"> <a href = "CocktailsCrazyness/index.html" target="popup"> Uita-te aici </a></p>
-                </div>
-
-                <div class = "project-card"> 
-                    <img class = "project-image" src = "photos/project.png" alt = "Project Image">
-                    <h3><u>Borodi Bogdan</u></h3></br>
-                    <p class = "infotext">Acesta este primul site creat de mine. Am incorporat diferite joculete, materiale educative si un formular de contact pentru a putea comunica cu oamenii interesati de proiect.</p>
-                    <p class = "subtext"> <a href = "https://borodibogdan.netlify.app/" target="popup"> Uita-te aici </a></p>
-                </div>
-
-            </div>
-            
-
-            <div class = "project-container">
-                <div class = "project-card1">
-                    <img class = "project-image" src = "photos/project4.png" alt = "Project Image">
-                    <h3><u>Site de prezentare</u></h3><br/>
-      
-                    <p class = "infotext">Acesta este un model de site pentru prezentarea unei firme. Design-ul este unul simplu, placut pentru privitor, fiind gandit pentru a atrage atentia.</p>
-                 
-                    <p class = "subtext"> <a href = "constructed/index.html" target="popup"> Uita-te aici </a></p>
-                </div>
-
-                <div class = "project-card1" class = 'project-card1'>
-                    <img class = "project-image" src = "photos/background.png" alt = "Project Image">
-                    <h3><u>Simply Construct</u></h3><br/>
-                    
-                    <p class = "infotext">Simply Construct este un proiect inedit care are rolul de a prezenta serciviile intr-un mod interactiv. Scopul site-ului este de a mari convingerea cititorului asupra serviciilor prestate.</p>
-                    <p class = "subtext"> <a href = "SimplyConstruct/index.html" target="popup"> Uita-te aici </a></p>
-                </div>
-
-                <div class = "project-card">
-                    <img class = "project-image" src = "photos/cool photo.png" alt = "Project Image">
-                    <h3><u>Cocktails Crazyness</u></h3><br/>
-                    <p class = "infotext">Cocktails Crazyness este un template de site pentru bartenderi. Aceasta impresioneaza prin designul cu vibe de party.</p>
-                    <p class = "subtext"> <a href = "CocktailsCrazyness/index.html" target="popup"> Uita-te aici </a></p>
-                </div>
-
-                <div class = "project-card"> 
-                    <img class = "project-image" src = "assets/blog/article-2.jpg" alt = "Project Image">
-                    <h3><u>Borodi Bogdan</u></h3></br>
-                    <p class = "infotext">Acesta este primul site creat de mine. Am incorporat diferite joculete, materiale educative si un formular de contact pentru a putea comunica cu oamenii interesati de proiect.</p>
-                    <p class = "subtext"> <a href = "https://borodibogdan.netlify.app/" target="popup"> Uita-te aici </a></p>
-                </div>
-
-            </div>
-            
-        </section>
         
+        <section class = "blog-section">
+
+            <h1 style="margin-top: 30px;" class = "blogtitle">Blogul nostru</h1>
+
+            <div class = "blog-area">
+
+                {%- for post in collections.presentation | reverse -%}
+                    {% include 'blogs.njk'%}
+                {%- endfor %}
+            </div>
+        </section>
+
+
+
         <section class = "last-section" id = "contact-area">
             <div data-wow-delay="0.4s">
                 
@@ -348,38 +289,6 @@
 
             
         </section>
-
-        <section class = "blog-section">
-
-            <h1 style="margin-top: 30px;" class = "blogtitle">Blogul nostru</h1>
-
-            <div class = "blog-area">
-                <div class = "blog-card">
-                    <img src = "assets/blog/article-3.jpg">
-                    <h3 class = "blog-subtext">Ce este un host sau găzduirea web?</h3>
-                    <hr/>
-                    <p>Este serviciul cu ajutorul căruia site-ul tău și fișierele care îl alcătuiesc sunt stocate pe un server.</p>
-                    <p class = "subtext"> <a href = "https://softopia.ro/blog/2021-05-15-my-second-article/" target="popup"> Uita-te aici </a></p>
-                </div>
-
-                <div class = "blog-card">
-                    <img src = "assets/blog/article-4.jpg">
-                    <h3 class = "blog-subtext">De ce este important sa ai un website?</h3>
-                    <hr/>
-                    <p>Mediul online se dezvolta continuu, din ce in ce mai multe persoane si firme constientizeaza beneficiile prezentei in mediul online.</p>
-                    <p class = "subtext"> <a href = "https://softopia.ro/blog/2021-05-01-my-first-article/" target="popup"> Uita-te aici </a></p>
-                </div>
-
-                <div class = "blog-card">
-                    <img src = "assets/blog/article-1.jpg">
-                    <h3 class = "blog-subtext">Introducere in site-uri web</h3>
-                    <hr/>
-                    <p>Înainte de orice alte explicaţii avansate trebuie să înţelegem ce este de fapt un Site Web.</p>
-                    <p class = "subtext"><a href = "https://www.softopia.ro/blog/2021-06-15-my-fifth-article/" target="popup"> Uita-te aici </a></p>
-                </div>
-            </div>
-        </section>
-
 
         <footer class = "last-div">
             <p>Copyright © 2022 - Developed By Borodi Bogdan</p>
