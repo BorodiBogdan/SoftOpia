@@ -9,6 +9,7 @@ date: 2021-05-15
 tags:
   - post
   - featured
+  - presentation
 image: https://dds.ro/noutati/wp-content/uploads/2019/02/servere-vps.png
 imageAlt: This is a test
 ---
