@@ -30,6 +30,7 @@ body{
     height: 300px;
     width: 300px;
 }
+
 .blog-card {
     box-shadow: 7px 7px 30px rgb(69, 255, 255);
     border-radius: 20px;
@@ -40,6 +41,11 @@ body{
     margin: 20px;
     height: 550px;
     width: 400px;
+    opacity: 0;
+    transition: all ease-in-out 0.7s;
+}
+.blog-card.appear{
+    opacity: 1;
 }
 .blog-card .subtext{
     transform: translateX(80px);
@@ -237,6 +243,7 @@ h2{
 .project-container{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .infotext{
     font-weight: 500;
@@ -424,6 +431,9 @@ h2{
 @media only screen and (max-width: 820px){
     .floating-image{
         height: 200px;
+    }
+    .sub-section-alternative h2{
+        font-size: 45px;
     }
 
 }
@@ -632,7 +642,7 @@ h2{
 }
 @media only screen and (max-width: 400px){
     .sub-section-alternative h2{
-        font-size: 60px;
+        font-size: 30px;
     }
     .contact-address{
         width: 200px;
