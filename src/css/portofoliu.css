@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    overflow-x:hidden;
+}
+.project-card{
+    padding: 10px;
+    box-shadow: 7px 7px 30px rgb(69, 255, 255);
+    margin-top: 30px;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: transform 400ms ease-in;
+}
+h2{
+    font-size: 50px;
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.project-card:hover{
+    box-shadow: 7px 7px 30px rgb(255, 157, 0);
+}
+.subtext:hover{
+    background-color: #ef744b;
+}
+.subtext:active{
+    background-color: #A9A9A9;
+    color: #808080;
+}
+.subtext{
+    margin-top: 30px;
+    width: 210px;
+    font-weight: 500;
+    background-color: coral;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+.infotext{
+    font-weight: 500;
+}
+.project-image{
+    margin-top: 15px;
+    width: 210px;
+    height: 210px;
+    border-radius: 205px;
+}
+.sub-section-alternative{
+    font-weight: 600;
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    text-align: center;
+}
+@media only screen and (max-width: 1000px){
+    .sub-section-alternative{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
