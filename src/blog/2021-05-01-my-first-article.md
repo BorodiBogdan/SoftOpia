@@ -1,15 +1,13 @@
 ---
 title: De ce este important sa ai un website?
 description: Mediul online se dezvolta continuu, din ce in ce mai multe persoane
-  si firme constientizeaza beneficiile prezentei in mediul online. Cu toate
-  acestea,  sunt inca multe persoane care sunt sceptice la ideea de a avea un
-  website. Bineinteles ca pentru a contribui pozitiv la dezvoltarea afacerii
-  tale, acesta trebuie sa fie realizat de profesionisti.
+  si firme constientizeaza beneficiile prezentei in mediul online.
 author: Borodi Bogdan
 date: 2021-05-01
 tags:
   - post
   - featured
+  - presentation
 image: https://24c.co/wp-content/uploads/2018/05/content-people-search-for-headline.jpg
 imageAlt: This is a test
 ---
